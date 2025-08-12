@@ -1,0 +1,66 @@
+body {
+    color: white;
+    background: rgb(20, 20, 20); /* preto um pouco mais claro */
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(255, 239, 184); /* amarelo pastel */
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(255, 239, 184); /* amarelo pastel */
+}
+
+.chamada {
+    background: url('https://newgameplus.com.br/wp-content/uploads/2019/03/DLEJ_QrXUAE1clP-640x260_c.jpg') no-repeat center center;
+    background-size: cover;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+}
+
+.texto-jogo {
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria h2 {
+    color: rgb(255, 239, 184); /* amarelo pastel */
+}
+
+.categoria-videos iframe {
+    flex: 1 1 300px;
+    max-width: 560px;
+    height: 315px;
+}
